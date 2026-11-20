@@ -1,0 +1,28 @@
+/* selector { property: value; } */
+body { /* element selector */
+font-family: Arial, sans-serif;
+background-color: #f4f6f8;
+color: #333;
+margin: 0;
+}
+h2 { /* class selector: use on many elements */
+background-color: rgb(118, 215, 118);
+}
+
+#about { /* ID selector: one element only */
+background-color: white;
+color: purple;
+}
+
+#detail{
+color: red;
+text-align: center;
+}
+
+nav a { /* descendant selector: links inside nav */
+color: white;
+text-decoration: none;
+}
+nav a:hover { /* pseudo-class: when mouse is over */
+text-decoration: underline;
+}
